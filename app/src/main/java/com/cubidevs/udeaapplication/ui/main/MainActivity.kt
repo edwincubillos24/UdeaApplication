@@ -1,17 +1,21 @@
-package com.cubidevs.udeaapplication
+package com.cubidevs.udeaapplication.ui.main
 
 import android.app.Activity
 import android.app.DatePickerDialog
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.ViewModelProvider
+import com.cubidevs.udeaapplication.R
 import com.cubidevs.udeaapplication.databinding.ActivityMainBinding
 import java.text.SimpleDateFormat
 import java.util.*
 
-class MainActivity : Activity() {
+class MainActivity : AppCompatActivity() {
 
     private lateinit var mainBinding: ActivityMainBinding
+    private lateinit var mainViewModel: MainViewModel
     private var bornDate = ""
     private val calendar = Calendar.getInstance()
 
@@ -20,6 +24,8 @@ class MainActivity : Activity() {
         mainBinding = ActivityMainBinding.inflate(layoutInflater)
         val view = mainBinding.root
         setContentView(view)
+
+        mainViewModel = ViewModelProvider(this)[MainViewModel::class.java]
 
         Log.d("Método:","onCreate()")
 
