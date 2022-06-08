@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">UdeaApplication</string>
+    <string name="register_form">Formulario de Registro</string>
+    <string name="name">Nombre</string>
+    <string name="last_name">Apellidos</string>
+    <string name="email">Correo electrónico</string>
+    <string name="register">Registrar</string>
+    <string name="info">Nombre: %s\nApellido: %s, \nEmail: %s\nGénero: %s\nPasatiempos: %s\nCiudad de Nacimiento: %s\nFecha de Nacimiento: %s</string>
+    <string name="genre">Género</string>
+    <string name="female">Femenino</string>
+    <string name="male">Masculino</string>
+    <string name="hobbies">Pasatiempos</string>
+    <string name="cook">Cocinar </string>
+    <string name="gym">Gimnasio </string>
+    <string name="read">Leer </string>
+    <string name="born_city">Ciudad de Nacimiento</string>
+    <string name="born_date">Fecha de Nacimiento</string>
+    <string name="template_date">dd/MM/yyyy</string>
+    <string name="msg_name">Falta digitar el nombre</string>
+    <string-array name="cities_list">
+        <item>Barranquilla</item>
+        <item>Bogotá</item>
+        <item>Cali</item>
+        <item>Medellín</item>
+        <item>Pereira</item>
+    </string-array>
 </resources>

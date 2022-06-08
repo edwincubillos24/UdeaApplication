@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UdeaApplication</string>
+    <string name="register_form">Register Form</string>
+    <string name="name">Name</string>
+    <string name="last_name">Lastname</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="info">Name: %s\nLastname: %s, \nEmail: %s\nGénero: %s\nHobbies: %s\nCity Born: %s\nDate Birthday: %s</string>
+    <string name="genre">Genre</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="cook">Cook </string>
+    <string name="gym">Gym </string>
+    <string name="read">Read </string>
+    <string name="born_city">City Born</string>
+    <string name="born_date">Date Birthday</string>
+    <string name="template_date">dd/MM/yyyy</string>
+    <string name="msg_name">You need the name</string>
+    <string-array name="cities_list">
+        <item>Barranquilla</item>
+        <item>Bogotá</item>
+        <item>Cali</item>
+        <item>Medellín</item>
+        <item>Pereira</item>
+    </string-array>
+</resources>
